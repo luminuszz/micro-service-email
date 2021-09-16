@@ -1,5 +1,5 @@
-import { EmailProvider } from './core/email.provider';
-import { SendEmailDTO } from './dto/send-email.dto';
+import { EmailProvider } from '../core/email.provider';
+import { SendEmailDTO } from '../dto/send-email.dto';
 import { Injectable } from '@nestjs/common';
 
 import * as mailer from 'nodemailer';
